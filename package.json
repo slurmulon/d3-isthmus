@@ -1,0 +1,17 @@
+{
+  "name": "d3-isthmus",
+  "version": "0.0.1",
+  "scripts": {
+    "prepublish": "rollup -c && uglifyjs d3.js -c -m -o d3.min.js"
+  },
+  "main": "d3.js",
+  "devDependencies": {
+    "d3-axis": "^1.0.3",
+    "d3-drag": "^1.0.1",
+    "d3-scale": "^1.0.3",
+    "d3-selection": "^1.0.2",
+    "rollup": "^0.36.3",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "uglify-js": "^2.7.3"
+  }
+}
